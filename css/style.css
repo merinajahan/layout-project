@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{box-sizing: border-box;background: gray;}
+
+
+
+.Layout-srction{
+
+width: 100%;
+
+background: gray;
+
+height: 1200px;
+
+/* margin: 0 auto; */
+}
+
+.container{
+
+background: #fff;
+
+width: 1000px;
+
+height: 600px;
+
+margin: 0 auto;
+
+overflow: hidden;
+
+/* box-sizing: border-box; */
+}
+
+.red{
+
+background-color: red;
+
+height: 100%;
+
+width: 100%;
+
+/* padding: 10px; */
+
+/* box-sizing: border-box; */
+}
+
+.blue{
+
+/* color: blue; */
+
+background-color: blue;
+
+height: 100%;
+
+width: 100%;
+}
+
+.green{
+
+background-color: green;
+
+height: 100%;
+
+width: 100%;
+}
+
+.yellow{
+
+background-color: yellow;
+
+height: 100%;
+
+width: 100%;
+}
+
+.one{
+
+width: 33.33%;
+
+height: 200px;
+
+float: left;
+
+/* box-sizing: border-box; */
+
+padding: 10px;
+}
+
+.two{
+
+width: 80%;
+
+height: 200px;
+
+float: left;
+
+padding: 10px;
+}
+
+.three{
+
+width: 20%;
+
+height: 200px;
+
+float: left;
+
+padding: 10px;
+}
+
+.four{
+
+width: 60%;
+
+height: 200px;
+
+float: left;
+
+padding: 10px;
+
+/* margin: 10px; */
+}
