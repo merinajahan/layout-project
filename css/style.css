@@ -1,125 +1,53 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-body{box-sizing: border-box;background: gray;}
-
-
-
-.Layout-srction{
-
-width: 100%;
-
-background: gray;
-
-height: 1200px;
-
-/* margin: 0 auto; */
-}
+.body{}
 
 .container{
-
-background: #fff;
 
 width: 1000px;
 
 height: 600px;
 
-margin: 0 auto;
+margin: auto;
 
-overflow: hidden;
-
-/* box-sizing: border-box; */
-}
-
-.red{
-
-background-color: red;
-
-height: 100%;
-
-width: 100%;
-
-/* padding: 10px; */
-
-/* box-sizing: border-box; */
-}
-
-.blue{
-
-/* color: blue; */
-
-background-color: blue;
-
-height: 100%;
-
-width: 100%;
-}
-
-.green{
-
-background-color: green;
-
-height: 100%;
-
-width: 100%;
-}
-
-.yellow{
-
-background-color: yellow;
-
-height: 100%;
-
-width: 100%;
+background: gray;
 }
 
 .one{
-
-width: 33.33%;
-
-height: 200px;
-
-float: left;
-
-/* box-sizing: border-box; */
-
-padding: 10px;
+    width: 33.33%;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 1px;
+    float: left;
 }
-
 .two{
-
-width: 80%;
-
-height: 200px;
-
-float: left;
-
-padding: 10px;
+    width: 50%;
+    float: left;
+    height: 200px;
+    box-sizing: border-box;
 }
-
 .three{
-
-width: 20%;
-
-height: 200px;
-
-float: left;
-
-padding: 10px;
+    width: 16.67%;
+    height: 200px;
+    float: left;
+    padding: 1px;
+    box-sizing: border-box;
+}
+.four{
+    width: 66.66%;
+    float: left;
+    height: 200px;
+    padding: 1px;
+    box-sizing: border-box;
 }
 
-.four{
-
-width: 60%;
-
-height: 200px;
-
-float: left;
-
-padding: 10px;
-
-/* margin: 10px; */
+.red{
+    background: #ce3131;
+    height: 100%;
+}
+.green{
+    background: green;
+    height: 100%;
+}
+.blue{
+    background: blue;
+    height: 100%;
 }
